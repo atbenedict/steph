@@ -1,3 +1,13 @@
 {
-  "version": 2
+  "version": 2,
+  "alias": ["www.stephaniesaintcyr.com"],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://stephaniesaintcyr.com/$1"
+      }
+    }
+  ]
 }
